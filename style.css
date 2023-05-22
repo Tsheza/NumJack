@@ -1,0 +1,81 @@
+body{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #000000;
+    color: whitesmoke;
+    padding: 25px 0;
+    text-align: center;
+}
+
+p{
+    line-height: 23px;
+    font-size: 20px;
+}
+
+.info {
+    border: 2px dotted #241c1c59;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.right{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    background-color: lightgreen;
+    color: rgb(59, 47, 47);
+    font-weight: bold;
+    width: 75%;
+    display: none;
+}
+
+.wrong{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    background-color: rgba(255, 0, 0, 0.774);
+    color: whitesmoke;
+    font-weight: bold;
+    width: 75%;
+    display: none;
+}
+
+.container{
+    max-width: 960px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+
+section {
+    padding: 45px 0;
+
+}
+
+form{
+    padding: 10px 25px;
+}
+
+input {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 15px 25px;
+    font-weight: bold;
+    background-color: rgb(131, 26, 26);
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: maroon;
+    color: whitesmoke;
+}
